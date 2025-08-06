@@ -1,3 +1,11 @@
+## Noted
+
+This project is a fork of [Flowbite](https://flowbite.com)
+
+It's meant to solve issue with datepicker
+
+I'll be testing it
+
 <div align="center">
   <h1>Flowbite React</h1>
   <p><em>⚠️ This is a pre-release version - please note that APIs may change before the final release</em></p>
