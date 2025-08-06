@@ -1,1 +1,1 @@
-export const pluginName = "flowbite-react-plugin";
+export const pluginName = "@herob191/flowbite-react-plugin";

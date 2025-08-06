@@ -7,7 +7,7 @@ export const initFile = "init";
 export const outputDir = ".flowbite-react";
 export const packageJsonFile = "package.json";
 export const pluginName = "flowbiteReact";
-export const pluginPath = "flowbite-react/plugin";
+export const pluginPath = "@herob191/flowbite-react/plugin";
 export const processIdFile = "pid";
 export const vscodeDir = ".vscode";
 

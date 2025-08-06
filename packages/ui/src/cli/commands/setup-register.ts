@@ -12,7 +12,7 @@ import { getPackageJson } from "../utils/get-package-json";
  */
 export async function setupRegister() {
   try {
-    const registerCommand = "flowbite-react register";
+    const registerCommand = "@herob191/flowbite-react register";
     const packageJson = await getPackageJson();
 
     if (!packageJson.scripts) {

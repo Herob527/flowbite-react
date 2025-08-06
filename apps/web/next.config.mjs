@@ -1,4 +1,4 @@
-import withFlowbiteReact from "flowbite-react/plugin/nextjs";
+import withFlowbiteReact from "@herob191/flowbite-react/plugin/nextjs";
 import { withContentlayer } from "next-contentlayer2";
 
 /** @type {import('next').NextConfig} */

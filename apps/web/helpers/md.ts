@@ -1,5 +1,5 @@
 import { theme } from "@herob191/flowbite-react";
-import type { FlowbiteTheme } from "flowbite-react/types";
+import type { FlowbiteTheme } from "@herob191/flowbite-react/types";
 import type { CodeData } from "~/components/code-demo";
 import { GUIDES } from "~/components/quickstart/integration-guides";
 import * as examples from "~/examples";

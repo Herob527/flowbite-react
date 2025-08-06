@@ -41,17 +41,17 @@ Here's a minimal blueprint for creating Flowbite React components:
 ```tsx
 "use client";
 
-import { createTheme } from "flowbite-react/helpers/create-theme";
-import { get } from "flowbite-react/helpers/get";
-import { resolveProps } from "flowbite-react/helpers/resolve-props";
-import { useResolveTheme } from "flowbite-react/helpers/resolve-theme";
-import { twMerge } from "flowbite-react/helpers/tailwind-merge";
-import { useThemeProvider } from "flowbite-react/theme/provider";
-import type { ThemingProps } from "flowbite-react/types";
+import { createTheme } from "@herob191/flowbite-react/helpers/create-theme";
+import { get } from "@herob191/flowbite-react/helpers/get";
+import { resolveProps } from "@herob191/flowbite-react/helpers/resolve-props";
+import { useResolveTheme } from "@herob191/flowbite-react/helpers/resolve-theme";
+import { twMerge } from "@herob191/flowbite-react/helpers/tailwind-merge";
+import { useThemeProvider } from "@herob191/flowbite-react/theme/provider";
+import type { ThemingProps } from "@herob191/flowbite-react/types";
 import { forwardRef, type ComponentProps } from "react";
 
 // 1. Extend the FlowbiteTheme and FlowbiteProps interfaces
-declare module "flowbite-react/types" {
+declare module "@herob191/flowbite-react/types" {
   interface FlowbiteTheme {
     myComponent: MyComponentTheme;
   }
@@ -188,7 +188,7 @@ Let's break down the key parts of the component blueprint:
 ### 1. Extend the FlowbiteTheme interface
 
 ```tsx
-declare module "flowbite-react/types" {
+declare module "@herob191/flowbite-react/types" {
   interface FlowbiteTheme {
     myComponent: MyComponentTheme;
   }

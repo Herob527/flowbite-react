@@ -101,7 +101,7 @@
      ```diff
      {
        "scripts": {
-     -   "postinstall": "flowbite-react patch"
+     -   "postinstall": "@herob191/flowbite-react patch"
        }
      }
      ```
@@ -659,7 +659,7 @@
   After
 
   ```js {1,7,11}
-  const flowbite = require("flowbite-react/tailwind");
+  const flowbite = require("@herob191/flowbite-react/tailwind");
 
   /** @type {import('tailwindcss').Config} */
   module.exports = {

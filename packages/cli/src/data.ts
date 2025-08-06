@@ -1,4 +1,4 @@
-export const DEFAULT_PROJECT_NAME = "flowbite-react-app";
+export const DEFAULT_PROJECT_NAME = "@herob191/flowbite-react-app";
 
 export interface Template {
   key: string;

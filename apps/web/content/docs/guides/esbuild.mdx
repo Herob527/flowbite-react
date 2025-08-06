@@ -113,7 +113,7 @@ import { readFile } from "node:fs/promises";
 import { createServer } from "node:http";
 import tailwindcss from "@tailwindcss/postcss";
 import * as esbuild from "esbuild";
-import flowbiteReact from "flowbite-react/plugin/esbuild";
+import flowbiteReact from "@herob191/flowbite-react/plugin/esbuild";
 import postcss from "postcss";
 
 const clients = new Set();
@@ -219,7 +219,7 @@ Create `esbuild.build.js`:
 import { readFile } from "node:fs/promises";
 import tailwindcss from "@tailwindcss/postcss";
 import * as esbuild from "esbuild";
-import flowbiteReact from "flowbite-react/plugin/esbuild";
+import flowbiteReact from "@herob191/flowbite-react/plugin/esbuild";
 import postcss from "postcss";
 
 const cssPlugin = {

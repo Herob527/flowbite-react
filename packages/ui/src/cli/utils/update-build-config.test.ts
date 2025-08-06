@@ -16,10 +16,10 @@ describe("updateBuildConfig", () => {
     const result = updateBuildConfig({
       content: input,
       pluginName: "flowbiteReact",
-      pluginImportPath: "flowbite-react/plugin/test",
+      pluginImportPath: "@herob191/flowbite-react/plugin/test",
     });
 
-    expect(result).toContain('import flowbiteReact from "flowbite-react/plugin/test"');
+    expect(result).toContain('import flowbiteReact from "@herob191/flowbite-react/plugin/test"');
     expect(result).toMatch(/plugins:\s*\[\s*flowbiteReact\s*\]/);
   });
 
@@ -39,17 +39,17 @@ describe("updateBuildConfig", () => {
     const result = updateBuildConfig({
       content: input,
       pluginName: "flowbiteReact",
-      pluginImportPath: "flowbite-react/plugin/test",
+      pluginImportPath: "@herob191/flowbite-react/plugin/test",
     });
 
-    expect(result).toContain('import flowbiteReact from "flowbite-react/plugin/test"');
+    expect(result).toContain('import flowbiteReact from "@herob191/flowbite-react/plugin/test"');
     expect(result).toMatch(/plugins:\s*\[\s*existingPlugin,\s*flowbiteReact\s*\]/);
   });
 
   it("should not add plugin if it already exists", () => {
     const input = `
       import build from 'bun';
-      import flowbiteReact from "flowbite-react/plugin/test";
+      import flowbiteReact from "@herob191/flowbite-react/plugin/test";
 
       const result = await build({
         entrypoints,
@@ -62,7 +62,7 @@ describe("updateBuildConfig", () => {
     const result = updateBuildConfig({
       content: input,
       pluginName: "flowbiteReact",
-      pluginImportPath: "flowbite-react/plugin/test",
+      pluginImportPath: "@herob191/flowbite-react/plugin/test",
     });
 
     // Should not add duplicate import or plugin

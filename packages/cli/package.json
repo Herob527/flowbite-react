@@ -4,8 +4,8 @@
   "description": "Quickly scaffold Flowbite React application",
   "keywords": [
     "@herob191/create-flowbite-react",
-    "flowbite-react-templates",
-    "flowbite-react-template",
+    "@herob191/flowbite-react-templates",
+    "@herob191/flowbite-react-template",
     "@herob191/flowbite-react",
     "flowbite",
     "react",

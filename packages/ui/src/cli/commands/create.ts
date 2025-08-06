@@ -75,16 +75,16 @@ export async function create(componentName?: string) {
 
     if (config.tsx) {
       // TypeScript version
-      componentContent = `${useClientDirective}import { createTheme } from "flowbite-react/helpers/create-theme";
-import { get } from "flowbite-react/helpers/get";
-import { resolveProps } from "flowbite-react/helpers/resolve-props";
-import { useResolveTheme } from "flowbite-react/helpers/resolve-theme";
-import { twMerge } from "flowbite-react/helpers/tailwind-merge";
-import { useThemeProvider } from "flowbite-react/theme/provider";
-import type { ThemingProps } from "flowbite-react/types";
+      componentContent = `${useClientDirective}import { createTheme } from "@herob191/flowbite-react/helpers/create-theme";
+import { get } from "@herob191/flowbite-react/helpers/get";
+import { resolveProps } from "@herob191/flowbite-react/helpers/resolve-props";
+import { useResolveTheme } from "@herob191/flowbite-react/helpers/resolve-theme";
+import { twMerge } from "@herob191/flowbite-react/helpers/tailwind-merge";
+import { useThemeProvider } from "@herob191/flowbite-react/theme/provider";
+import type { ThemingProps } from "@herob191/flowbite-react/types";
 import { forwardRef, type ComponentProps } from "react";
 
-declare module "flowbite-react/types" {
+declare module "@herob191/flowbite-react/types" {
   interface FlowbiteTheme {
     ${camelCaseName}: ${formattedName}Theme;
   }
@@ -129,12 +129,12 @@ export const ${formattedName} = forwardRef<HTMLDivElement, ${formattedName}Props
 ${formattedName}.displayName = "${formattedName}";`;
     } else {
       // JavaScript version (without TypeScript syntax)
-      componentContent = `${useClientDirective}import { createTheme } from "flowbite-react/helpers/create-theme";
-import { get } from "flowbite-react/helpers/get";
-import { resolveProps } from "flowbite-react/helpers/resolve-props";
-import { useResolveTheme } from "flowbite-react/helpers/resolve-theme";
-import { twMerge } from "flowbite-react/helpers/tailwind-merge";
-import { useThemeProvider } from "flowbite-react/theme/provider";
+      componentContent = `${useClientDirective}import { createTheme } from "@herob191/flowbite-react/helpers/create-theme";
+import { get } from "@herob191/flowbite-react/helpers/get";
+import { resolveProps } from "@herob191/flowbite-react/helpers/resolve-props";
+import { useResolveTheme } from "@herob191/flowbite-react/helpers/resolve-theme";
+import { twMerge } from "@herob191/flowbite-react/helpers/tailwind-merge";
+import { useThemeProvider } from "@herob191/flowbite-react/theme/provider";
 import { forwardRef } from "react";
 
 export const ${camelCaseName}Theme = createTheme({
