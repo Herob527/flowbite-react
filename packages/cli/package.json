@@ -3,7 +3,7 @@
   "version": "1.1.1",
   "description": "Quickly scaffold Flowbite React application",
   "keywords": [
-    "create-flowbite-react",
+    "@herob191/create-flowbite-react",
     "flowbite-react-templates",
     "flowbite-react-template",
     "@herob191/flowbite-react",
@@ -27,7 +27,7 @@
   },
   "type": "module",
   "bin": {
-    "create-flowbite-react": "./dist/index.js"
+    "@herob191/create-flowbite-react": "./dist/index.js"
   },
   "files": [
     "dist"
