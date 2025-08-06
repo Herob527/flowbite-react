@@ -1,8 +1,8 @@
 "use client";
 
 import type { Doc } from "contentlayer/generated";
-import { Check, Edit, FileCopy } from "@herob191/flowbite-react-icons/outline";
-import { Github } from "@herob191/flowbite-react-icons/solid";
+import { Check, Edit, FileCopy } from "flowbite-react-icons/outline";
+import { Github } from "flowbite-react-icons/solid";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import Markdown from "react-markdown";
