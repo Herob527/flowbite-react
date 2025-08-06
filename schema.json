@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "components": {
+      "description": "List of component names to generate styles for. Empty array enables automatic detection. \nSee https://flowbite-react.com/docs/customize/config#components for more details.",
+      "type": "array",
+      "items": { "type": "string", "enum": ["*"] },
+      "uniqueItems": true
+    },
+    "dark": {
+      "description": "Whether to generate dark mode styles. \nSee https://flowbite-react.com/docs/customize/config#dark for more details.",
+      "type": "boolean",
+      "default": true
+    },
+    "path": {
+      "description": "Path where components will be created, relative to the project root. \nSee https://flowbite-react.com/docs/customize/config#path for more details.",
+      "type": "string",
+      "default": "src/components"
+    },
+    "prefix": {
+      "description": "Optional prefix to apply to all Tailwind CSS classes. \nSee https://flowbite-react.com/docs/customize/config#prefix for more details.",
+      "type": "string",
+      "default": ""
+    },
+    "rsc": {
+      "description": "Whether to include the 'use client' directive for React Server Components. \nSee https://flowbite-react.com/docs/customize/config#rsc for more details.",
+      "type": "boolean",
+      "default": true
+    },
+    "tsx": {
+      "description": "Whether to use TypeScript (.tsx) or JavaScript (.jsx) for component creation. \nSee https://flowbite-react.com/docs/customize/config#tsx for more details.",
+      "type": "boolean",
+      "default": true
+    },
+    "version": {
+      "description": "The version of Tailwind CSS to use. \nSee https://flowbite-react.com/docs/customize/config#version for more details.",
+      "type": "number",
+      "enum": [3, 4],
+      "default": 4
+    }
+  },
+  "required": ["components", "dark", "path", "prefix", "rsc", "tsx", "version"]
+}
