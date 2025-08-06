@@ -11,7 +11,7 @@ import {
   Label,
   Textarea,
   TextInput,
-} from "flowbite-react";
+} from "@herob191/flowbite-react";
 import { useState } from "react";
 import { HiCalendar, HiUserAdd } from "react-icons/hi";
 import type { CodeData } from "~/components/code-demo";
@@ -30,7 +30,7 @@ import {
   Label,
   Textarea,
   TextInput,
-} from "flowbite-react";
+} from "@herob191/flowbite-react";
 import { useState } from "react";
 import { HiCalendar, HiUserAdd } from "react-icons/hi";
 

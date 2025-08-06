@@ -1,4 +1,4 @@
-import { Badge, DarkThemeToggle, Tooltip } from "flowbite-react";
+import { Badge, DarkThemeToggle, Tooltip } from "@herob191/flowbite-react";
 import Link from "next/link";
 import { BsGithub } from "react-icons/bs";
 import { SiDiscord, SiStorybook } from "react-icons/si";

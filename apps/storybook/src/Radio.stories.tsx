@@ -1,6 +1,6 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import type { RadioProps } from "flowbite-react";
-import { Radio } from "flowbite-react";
+import type { RadioProps } from "@herob191/flowbite-react";
+import { Radio } from "@herob191/flowbite-react";
 
 export default {
   title: "Components/Radio",

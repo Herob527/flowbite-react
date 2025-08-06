@@ -1,6 +1,6 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import type { ProgressProps } from "flowbite-react";
-import { Progress } from "flowbite-react";
+import type { ProgressProps } from "@herob191/flowbite-react";
+import { Progress } from "@herob191/flowbite-react";
 
 export default {
   title: "Components/Progress",

@@ -1,6 +1,6 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import type { ToastProps } from "flowbite-react";
-import { Toast, ToastToggle } from "flowbite-react";
+import type { ToastProps } from "@herob191/flowbite-react";
+import { Toast, ToastToggle } from "@herob191/flowbite-react";
 import { HiFire } from "react-icons/hi";
 
 export default {

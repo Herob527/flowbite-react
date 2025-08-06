@@ -1,8 +1,8 @@
-import { Progress } from "flowbite-react";
+import { Progress } from "@herob191/flowbite-react";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
-import { Progress } from "flowbite-react";
+import { Progress } from "@herob191/flowbite-react";
 
 export function Component() {
   return <Progress progress={45} />;

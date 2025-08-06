@@ -1,6 +1,6 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import type { ListGroupProps } from "flowbite-react";
-import { ListGroup, ListGroupItem } from "flowbite-react";
+import type { ListGroupProps } from "@herob191/flowbite-react";
+import { ListGroup, ListGroupItem } from "@herob191/flowbite-react";
 import { HiCloudDownload, HiInbox, HiOutlineAdjustments, HiUserCircle } from "react-icons/hi";
 
 export default {

@@ -1,8 +1,8 @@
-import { Button, Tooltip } from "flowbite-react";
+import { Button, Tooltip } from "@herob191/flowbite-react";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
-import { Button, Tooltip } from "flowbite-react";
+import { Button, Tooltip } from "@herob191/flowbite-react";
 
 export function Component() {
   return (

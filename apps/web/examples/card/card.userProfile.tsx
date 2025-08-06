@@ -1,9 +1,9 @@
-import { Card, Dropdown, DropdownItem } from "flowbite-react";
+import { Card, Dropdown, DropdownItem } from "@herob191/flowbite-react";
 import Image from "next/image";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
-import { Card, Dropdown, DropdownItem } from "flowbite-react";
+import { Card, Dropdown, DropdownItem } from "@herob191/flowbite-react";
 import Image from "next/image";
 
 export function Component() {

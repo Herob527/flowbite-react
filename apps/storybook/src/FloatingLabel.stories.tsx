@@ -1,5 +1,5 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import { FloatingLabel, type FloatingLabelProps } from "flowbite-react";
+import { FloatingLabel, type FloatingLabelProps } from "@herob191/flowbite-react";
 
 export default {
   title: "Components/FloatingLabel",

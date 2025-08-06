@@ -1,6 +1,6 @@
 import type { Meta } from "@storybook/react";
-import type { TabsProps } from "flowbite-react";
-import { TabItem, Tabs } from "flowbite-react";
+import type { TabsProps } from "@herob191/flowbite-react";
+import { TabItem, Tabs } from "@herob191/flowbite-react";
 import { HiAdjustments, HiClipboardList, HiUserCircle } from "react-icons/hi";
 import { MdDashboard } from "react-icons/md";
 

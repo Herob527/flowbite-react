@@ -1,13 +1,13 @@
 "use client";
 
-import { Badge } from "flowbite-react";
+import { Badge } from "@herob191/flowbite-react";
 import { HiCheck } from "react-icons/hi";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
 "use client";
 
-import { Badge } from "flowbite-react";
+import { Badge } from "@herob191/flowbite-react";
 import { HiCheck, HiClock } from "react-icons/hi";
 
 export function Component() {

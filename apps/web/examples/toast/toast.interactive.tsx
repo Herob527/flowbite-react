@@ -1,9 +1,9 @@
-import { Button, Toast, ToastToggle } from "flowbite-react";
+import { Button, Toast, ToastToggle } from "@herob191/flowbite-react";
 import { MdLoop } from "react-icons/md";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
-import { Button, Toast, ToastToggle } from "flowbite-react";
+import { Button, Toast, ToastToggle } from "@herob191/flowbite-react";
 import { MdLoop } from "react-icons/md";
 
 export function Component() {

@@ -1,8 +1,8 @@
-import { Button, Spinner } from "flowbite-react";
+import { Button, Spinner } from "@herob191/flowbite-react";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
-import { Button, Spinner } from "flowbite-react";
+import { Button, Spinner } from "@herob191/flowbite-react";
 
 export function Component() {
   return (

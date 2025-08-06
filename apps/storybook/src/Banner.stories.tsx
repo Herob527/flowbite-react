@@ -1,6 +1,6 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import type { BannerProps } from "flowbite-react";
-import { Banner, BannerCollapseButton } from "flowbite-react";
+import type { BannerProps } from "@herob191/flowbite-react";
+import { Banner, BannerCollapseButton } from "@herob191/flowbite-react";
 import { HiX } from "react-icons/hi";
 import { MdAnnouncement } from "react-icons/md";
 

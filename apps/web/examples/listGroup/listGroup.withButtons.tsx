@@ -1,12 +1,12 @@
 "use client";
 
-import { ListGroup, ListGroupItem } from "flowbite-react";
+import { ListGroup, ListGroupItem } from "@herob191/flowbite-react";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
 "use client";
 
-import { ListGroup, ListGroupItem } from "flowbite-react";
+import { ListGroup, ListGroupItem } from "@herob191/flowbite-react";
 
 export function Component() {
   return (

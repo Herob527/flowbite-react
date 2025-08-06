@@ -1,7 +1,7 @@
 import { action } from "@storybook/addon-actions";
 import type { Meta, StoryFn } from "@storybook/react";
-import type { DropdownProps } from "flowbite-react";
-import { Dropdown, DropdownDivider, DropdownHeader, DropdownItem } from "flowbite-react";
+import type { DropdownProps } from "@herob191/flowbite-react";
+import { Dropdown, DropdownDivider, DropdownHeader, DropdownItem } from "@herob191/flowbite-react";
 
 export default {
   title: "Components/Dropdown",

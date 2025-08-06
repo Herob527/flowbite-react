@@ -1,6 +1,6 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import type { BlockquoteProps } from "flowbite-react";
-import { Blockquote } from "flowbite-react";
+import type { BlockquoteProps } from "@herob191/flowbite-react";
+import { Blockquote } from "@herob191/flowbite-react";
 
 export default {
   title: "Components/Blockquote",

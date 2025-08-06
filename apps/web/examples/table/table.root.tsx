@@ -1,8 +1,8 @@
-import { Table, TableBody, TableCell, TableHead, TableHeadCell, TableRow } from "flowbite-react";
+import { Table, TableBody, TableCell, TableHead, TableHeadCell, TableRow } from "@herob191/flowbite-react";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
-import { Table, TableBody, TableCell, TableHead, TableHeadCell, TableRow } from "flowbite-react";
+import { Table, TableBody, TableCell, TableHead, TableHeadCell, TableRow } from "@herob191/flowbite-react";
 
 export function Component() {
   return (

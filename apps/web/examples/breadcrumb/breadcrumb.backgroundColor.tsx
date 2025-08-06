@@ -1,13 +1,13 @@
 "use client";
 
-import { Breadcrumb, BreadcrumbItem } from "flowbite-react";
+import { Breadcrumb, BreadcrumbItem } from "@herob191/flowbite-react";
 import { HiHome } from "react-icons/hi";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
 "use client";
 
-import { Breadcrumb, BreadcrumbItem } from "flowbite-react";
+import { Breadcrumb, BreadcrumbItem } from "@herob191/flowbite-react";
 import { HiHome } from "react-icons/hi";
 
 export function Component() {

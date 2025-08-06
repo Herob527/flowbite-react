@@ -1,6 +1,6 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import type { CheckboxProps } from "flowbite-react";
-import { Checkbox } from "flowbite-react";
+import type { CheckboxProps } from "@herob191/flowbite-react";
+import { Checkbox } from "@herob191/flowbite-react";
 
 export default {
   title: "Components/Checkbox",

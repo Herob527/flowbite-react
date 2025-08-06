@@ -1,6 +1,6 @@
 "use client";
 
-import { Sidebar, SidebarCollapse, SidebarItem, SidebarItemGroup, SidebarItems } from "flowbite-react";
+import { Sidebar, SidebarCollapse, SidebarItem, SidebarItemGroup, SidebarItems } from "@herob191/flowbite-react";
 import {
   HiArrowSmRight,
   HiChartPie,
@@ -17,7 +17,7 @@ import type { CodeData } from "~/components/code-demo";
 const code = `
 "use client";
 
-import { Sidebar, SidebarCollapse, SidebarItem, SidebarItemGroup, SidebarItems } from "flowbite-react";
+import { Sidebar, SidebarCollapse, SidebarItem, SidebarItemGroup, SidebarItems } from "@herob191/flowbite-react";
 import {
   HiArrowSmRight,
   HiChartPie,

@@ -1,6 +1,6 @@
 "use client";
 
-import { TextInput, Tooltip } from "flowbite-react";
+import { TextInput, Tooltip } from "@herob191/flowbite-react";
 import { useState } from "react";
 import { HiClipboardCopy } from "react-icons/hi";
 

@@ -1,6 +1,6 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import type { KbdProps } from "flowbite-react";
-import { Kbd } from "flowbite-react";
+import type { KbdProps } from "@herob191/flowbite-react";
+import { Kbd } from "@herob191/flowbite-react";
 import { MdKeyboardArrowDown, MdKeyboardCommandKey } from "react-icons/md";
 
 export default {

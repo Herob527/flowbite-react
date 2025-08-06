@@ -1,6 +1,6 @@
 "use client";
 
-import { Button, Modal, ModalBody, ModalHeader } from "flowbite-react";
+import { Button, Modal, ModalBody, ModalHeader } from "@herob191/flowbite-react";
 import { useState } from "react";
 import { HiOutlineExclamationCircle } from "react-icons/hi";
 import type { CodeData } from "~/components/code-demo";
@@ -8,7 +8,7 @@ import type { CodeData } from "~/components/code-demo";
 const code = `
 "use client";
 
-import { Button, Modal, ModalBody, ModalHeader } from "flowbite-react";
+import { Button, Modal, ModalBody, ModalHeader } from "@herob191/flowbite-react";
 import { useState } from "react";
 import { HiOutlineExclamationCircle } from "react-icons/hi";
 

@@ -1,13 +1,13 @@
 "use client";
 
-import { List, ListItem } from "flowbite-react";
+import { List, ListItem } from "@herob191/flowbite-react";
 import { HiCheckCircle } from "react-icons/hi";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
 "use client";
 
-import { List, ListItem } from "flowbite-react";
+import { List, ListItem } from "@herob191/flowbite-react";
 import { HiCheckCircle } from "react-icons/hi";
 
 export function Component() {

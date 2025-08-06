@@ -12,7 +12,7 @@ import {
   NavbarLink,
   NavbarToggle,
   type NavbarProps,
-} from "flowbite-react";
+} from "@herob191/flowbite-react";
 
 export default {
   title: "Components/Navbar",

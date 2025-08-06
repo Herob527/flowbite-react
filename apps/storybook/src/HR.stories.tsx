@@ -1,6 +1,6 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import type { HRIconProps, HRProps, HRSquareProps, HRTextProps, HRTrimmedProps } from "flowbite-react";
-import { HR, HRIcon, HRSquare, HRText, HRTrimmed } from "flowbite-react";
+import type { HRIconProps, HRProps, HRSquareProps, HRTextProps, HRTrimmedProps } from "@herob191/flowbite-react";
+import { HR, HRIcon, HRSquare, HRText, HRTrimmed } from "@herob191/flowbite-react";
 
 export default {
   title: "Components/HR",

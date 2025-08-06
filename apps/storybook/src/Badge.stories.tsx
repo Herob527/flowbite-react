@@ -1,6 +1,6 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import type { BadgeProps } from "flowbite-react";
-import { Badge, badgeTheme } from "flowbite-react";
+import type { BadgeProps } from "@herob191/flowbite-react";
+import { Badge, badgeTheme } from "@herob191/flowbite-react";
 import { HiCheck } from "react-icons/hi";
 
 export default {

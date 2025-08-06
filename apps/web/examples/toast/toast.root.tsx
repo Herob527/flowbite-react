@@ -1,9 +1,9 @@
-import { Toast, ToastToggle } from "flowbite-react";
+import { Toast, ToastToggle } from "@herob191/flowbite-react";
 import { HiFire } from "react-icons/hi";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
-import { Toast, ToastToggle } from "flowbite-react";
+import { Toast, ToastToggle } from "@herob191/flowbite-react";
 import { HiFire } from "react-icons/hi";
 
 export function Component() {

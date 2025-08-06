@@ -1,6 +1,6 @@
 "use client";
 
-import { Button, Toast, ToastToggle } from "flowbite-react";
+import { Button, Toast, ToastToggle } from "@herob191/flowbite-react";
 import { useState } from "react";
 import { HiFire } from "react-icons/hi";
 import type { CodeData } from "~/components/code-demo";
@@ -8,7 +8,7 @@ import type { CodeData } from "~/components/code-demo";
 const code = `
 "use client";
 
-import { Button, Toast, ToastToggle } from "flowbite-react";
+import { Button, Toast, ToastToggle } from "@herob191/flowbite-react";
 import { useState } from "react";
 import { HiFire } from "react-icons/hi";
 

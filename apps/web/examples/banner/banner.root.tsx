@@ -1,10 +1,10 @@
-import { Banner, BannerCollapseButton } from "flowbite-react";
+import { Banner, BannerCollapseButton } from "@herob191/flowbite-react";
 import { HiX } from "react-icons/hi";
 import { MdAnnouncement } from "react-icons/md";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
-import { Banner, BannerCollapseButton } from "flowbite-react";
+import { Banner, BannerCollapseButton } from "@herob191/flowbite-react";
 import { HiX } from "react-icons/hi";
 import { MdAnnouncement } from "react-icons/md";
 

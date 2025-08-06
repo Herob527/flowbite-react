@@ -6,7 +6,7 @@ import {
   NavbarCollapse,
   NavbarLink,
   NavbarToggle,
-} from "flowbite-react";
+} from "@herob191/flowbite-react";
 import { HiChevronDown } from "react-icons/hi";
 import type { CodeData } from "~/components/code-demo";
 
@@ -19,7 +19,7 @@ import {
   NavbarCollapse,
   NavbarLink,
   NavbarToggle,
-} from "flowbite-react";
+} from "@herob191/flowbite-react";
 import { HiChevronDown } from "react-icons/hi";
 
 function Component() {

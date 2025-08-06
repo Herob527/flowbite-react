@@ -1,9 +1,9 @@
-import { Banner, BannerCollapseButton, Button, Label, TextInput } from "flowbite-react";
+import { Banner, BannerCollapseButton, Button, Label, TextInput } from "@herob191/flowbite-react";
 import { HiX } from "react-icons/hi";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
-import { Banner, BannerCollapseButton, Button, Label, TextInput } from "flowbite-react";
+import { Banner, BannerCollapseButton, Button, Label, TextInput } from "@herob191/flowbite-react";
 import { HiX } from "react-icons/hi";
 
 export function Component() {

@@ -1,12 +1,12 @@
 "use client";
 
-import { Datepicker, Views } from "flowbite-react";
+import { Datepicker, Views } from "@herob191/flowbite-react";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
 "use client";
 
-import { Datepicker, Views } from "flowbite-react";
+import { Datepicker, Views } from "@herob191/flowbite-react";
 
 export function Component() {
   const filterFn = (date: Date, view: Views) => {

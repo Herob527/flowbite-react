@@ -1,13 +1,13 @@
 "use client";
 
-import { Alert } from "flowbite-react";
+import { Alert } from "@herob191/flowbite-react";
 import { HiEye, HiInformationCircle } from "react-icons/hi";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
 "use client";
 
-import { Alert } from "flowbite-react";
+import { Alert } from "@herob191/flowbite-react";
 import { HiEye, HiInformationCircle } from "react-icons/hi";
 
 export function Component() {

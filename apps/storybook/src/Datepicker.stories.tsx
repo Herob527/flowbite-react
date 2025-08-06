@@ -1,6 +1,6 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import type { DatepickerProps } from "flowbite-react";
-import { Datepicker, getFirstDateInRange, Views, WeekStart } from "flowbite-react";
+import type { DatepickerProps } from "@herob191/flowbite-react";
+import { Datepicker, getFirstDateInRange, Views, WeekStart } from "@herob191/flowbite-react";
 import { useEffect, useState } from "react";
 
 export default {

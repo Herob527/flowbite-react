@@ -1,5 +1,5 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import { Button, Spinner } from "flowbite-react";
+import { Button, Spinner } from "@herob191/flowbite-react";
 
 export default {
   title: "Components/Spinner",

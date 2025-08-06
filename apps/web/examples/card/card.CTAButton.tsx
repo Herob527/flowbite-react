@@ -1,8 +1,8 @@
-import { Button, Card } from "flowbite-react";
+import { Button, Card } from "@herob191/flowbite-react";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
-import { Button, Card } from "flowbite-react";
+import { Button, Card } from "@herob191/flowbite-react";
 
 export function Component() {
   return (

@@ -1,6 +1,6 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import type { AvatarGroupProps } from "flowbite-react";
-import { Avatar, AvatarGroup, AvatarGroupCounter } from "flowbite-react";
+import type { AvatarGroupProps } from "@herob191/flowbite-react";
+import { Avatar, AvatarGroup, AvatarGroupCounter } from "@herob191/flowbite-react";
 
 export default {
   title: "Components/Avatar",

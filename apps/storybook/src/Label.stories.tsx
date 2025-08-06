@@ -1,6 +1,6 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import type { LabelProps } from "flowbite-react";
-import { Label } from "flowbite-react";
+import type { LabelProps } from "@herob191/flowbite-react";
+import { Label } from "@herob191/flowbite-react";
 
 export default {
   title: "Components/Label",

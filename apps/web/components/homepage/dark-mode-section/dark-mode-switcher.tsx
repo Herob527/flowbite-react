@@ -1,6 +1,6 @@
 "use client";
 
-import { useThemeMode } from "flowbite-react";
+import { useThemeMode } from "@herob191/flowbite-react";
 
 export function DarkModeSwitcher() {
   const { setMode } = useThemeMode();

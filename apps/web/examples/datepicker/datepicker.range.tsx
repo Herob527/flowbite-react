@@ -1,8 +1,8 @@
-import { Datepicker } from "flowbite-react";
+import { Datepicker } from "@herob191/flowbite-react";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
-import { Datepicker } from "flowbite-react";
+import { Datepicker } from "@herob191/flowbite-react";
 
 export function Component() {
   return <Datepicker minDate={new Date(2023, 0, 1)} maxDate={new Date(2023, 3, 30)} />;

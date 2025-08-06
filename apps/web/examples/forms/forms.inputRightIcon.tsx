@@ -1,13 +1,13 @@
 "use client";
 
-import { Label, TextInput } from "flowbite-react";
+import { Label, TextInput } from "@herob191/flowbite-react";
 import { HiMail } from "react-icons/hi";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
 "use client";
 
-import { Label, TextInput } from "flowbite-react";
+import { Label, TextInput } from "@herob191/flowbite-react";
 import { HiMail } from "react-icons/hi";
 
 export function Component() {

@@ -1,13 +1,13 @@
 "use client";
 
-import { Button, Drawer, DrawerHeader, DrawerItems } from "flowbite-react";
+import { Button, Drawer, DrawerHeader, DrawerItems } from "@herob191/flowbite-react";
 import { useState } from "react";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
 "use client";
 
-import { Button, Drawer, DrawerHeader, DrawerItems } from "flowbite-react";
+import { Button, Drawer, DrawerHeader, DrawerItems } from "@herob191/flowbite-react";
 import { useState } from "react";
 
 export function Component() {

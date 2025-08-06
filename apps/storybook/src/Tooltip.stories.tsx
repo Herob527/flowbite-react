@@ -1,6 +1,6 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import { Button, Tooltip } from "flowbite-react";
-import type { TooltipProps } from "flowbite-react";
+import { Button, Tooltip } from "@herob191/flowbite-react";
+import type { TooltipProps } from "@herob191/flowbite-react";
 
 export default {
   title: "Components/Tooltip",

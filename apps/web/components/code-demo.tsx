@@ -1,6 +1,6 @@
 "use client";
 
-import { Select, Tooltip, useThemeMode } from "flowbite-react";
+import { Select, Tooltip, useThemeMode } from "@herob191/flowbite-react";
 import type { ComponentProps, PropsWithChildren } from "react";
 import { useEffect, useRef, useState } from "react";
 import type { IconType } from "react-icons";

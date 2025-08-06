@@ -1,4 +1,4 @@
-import { Tooltip } from "flowbite-react";
+import { Tooltip } from "@herob191/flowbite-react";
 import Image from "next/image";
 import Link from "next/link";
 import { fetchSafe } from "~/helpers/http";

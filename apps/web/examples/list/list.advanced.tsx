@@ -1,8 +1,8 @@
-import { Avatar, List, ListItem } from "flowbite-react";
+import { Avatar, List, ListItem } from "@herob191/flowbite-react";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
-import { Avatar, List, ListItem } from "flowbite-react";
+import { Avatar, List, ListItem } from "@herob191/flowbite-react";
 
 export function Component() {
   return (

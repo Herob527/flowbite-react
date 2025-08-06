@@ -1,12 +1,12 @@
 "use client";
 
-import { Carousel } from "flowbite-react";
+import { Carousel } from "@herob191/flowbite-react";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
 "use client";
 
-import { Carousel } from "flowbite-react";
+import { Carousel } from "@herob191/flowbite-react";
 
 export function Component() {
   return (

@@ -28,7 +28,7 @@ export async function register() {
 
   try {
     // run `flowbite-react dev` in background
-    const devProcess = spawn("flowbite-react", ["dev"], {
+    const devProcess = spawn("@herob191/flowbite-react", ["dev"], {
       stdio: "ignore",
       detached: true,
       shell: true,

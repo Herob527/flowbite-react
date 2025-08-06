@@ -1,12 +1,12 @@
 "use client";
 
-import { Dropdown, DropdownItem } from "flowbite-react";
+import { Dropdown, DropdownItem } from "@herob191/flowbite-react";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
 "use client";
 
-import { Dropdown, DropdownItem } from "flowbite-react";
+import { Dropdown, DropdownItem } from "@herob191/flowbite-react";
 
 export function Component() {
   return (

@@ -1,13 +1,13 @@
 "use client";
 
-import { Button, Checkbox, Label, Modal, ModalBody, ModalHeader, TextInput } from "flowbite-react";
+import { Button, Checkbox, Label, Modal, ModalBody, ModalHeader, TextInput } from "@herob191/flowbite-react";
 import { useState } from "react";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
 "use client";
 
-import { Button, Checkbox, Label, Modal, ModalBody, ModalHeader, TextInput } from "flowbite-react";
+import { Button, Checkbox, Label, Modal, ModalBody, ModalHeader, TextInput } from "@herob191/flowbite-react";
 import { useState } from "react";
 
 export function Component() {

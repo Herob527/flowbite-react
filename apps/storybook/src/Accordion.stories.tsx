@@ -1,5 +1,5 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import { Accordion, AccordionContent, AccordionPanel, AccordionTitle, type AccordionProps } from "flowbite-react";
+import { Accordion, AccordionContent, AccordionPanel, AccordionTitle, type AccordionProps } from "@herob191/flowbite-react";
 import { HiChevronDown, HiOutlineArrowCircleDown } from "react-icons/hi";
 
 export default {

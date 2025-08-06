@@ -9,7 +9,7 @@ import {
   TableHeadCell,
   TableRow,
   theme,
-} from "flowbite-react";
+} from "@herob191/flowbite-react";
 import type { MDXComponents } from "mdx/types";
 import { getMDXComponent } from "next-contentlayer2/hooks";
 import Link from "next/link";

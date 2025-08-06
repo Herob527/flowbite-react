@@ -1,5 +1,5 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import { Button, Popover, type PopoverProps } from "flowbite-react";
+import { Button, Popover, type PopoverProps } from "@herob191/flowbite-react";
 import { useState } from "react";
 
 export default {

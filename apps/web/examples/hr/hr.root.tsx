@@ -1,8 +1,8 @@
-import { HR } from "flowbite-react";
+import { HR } from "@herob191/flowbite-react";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
-import { HR } from "flowbite-react";
+import { HR } from "@herob191/flowbite-react";
 
 function Component() {
   return (

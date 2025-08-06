@@ -1,6 +1,6 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import type { PaginationProps } from "flowbite-react";
-import { DefaultPaginationProps, Pagination, TablePaginationProps } from "flowbite-react";
+import type { PaginationProps } from "@herob191/flowbite-react";
+import { DefaultPaginationProps, Pagination, TablePaginationProps } from "@herob191/flowbite-react";
 import { useEffect, useState } from "react";
 
 export default {

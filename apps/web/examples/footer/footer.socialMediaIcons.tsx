@@ -9,7 +9,7 @@ import {
   FooterLink,
   FooterLinkGroup,
   FooterTitle,
-} from "flowbite-react";
+} from "@herob191/flowbite-react";
 import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
 import type { CodeData } from "~/components/code-demo";
 
@@ -25,7 +25,7 @@ import {
   FooterLink,
   FooterLinkGroup,
   FooterTitle,
-} from "flowbite-react";
+} from "@herob191/flowbite-react";
 import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
 
 export function Component() {

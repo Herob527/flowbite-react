@@ -1,4 +1,4 @@
-import { ThemeModeScript } from "flowbite-react";
+import { ThemeModeScript } from "@herob191/flowbite-react";
 import { Inter as InterFont } from "next/font/google";
 import type { Metadata, Viewport } from "next/types";
 import type { PropsWithChildren } from "react";

@@ -7,8 +7,8 @@ import {
   NavbarCollapse,
   NavbarLink,
   NavbarToggle,
-} from "flowbite-react";
-import type { MegaMenuProps } from "flowbite-react";
+} from "@herob191/flowbite-react";
+import type { MegaMenuProps } from "@herob191/flowbite-react";
 
 export default {
   title: "Components/MegaMenu",

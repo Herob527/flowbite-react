@@ -1,8 +1,8 @@
-import { Accordion, AccordionContent, AccordionPanel, AccordionTitle } from "flowbite-react";
+import { Accordion, AccordionContent, AccordionPanel, AccordionTitle } from "@herob191/flowbite-react";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
-import { Accordion, AccordionContent, AccordionPanel, AccordionTitle } from "flowbite-react";
+import { Accordion, AccordionContent, AccordionPanel, AccordionTitle } from "@herob191/flowbite-react";
 
 export function Component() {
   return (

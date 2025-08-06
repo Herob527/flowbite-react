@@ -1,6 +1,6 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import type { BreadcrumbProps } from "flowbite-react";
-import { Breadcrumb, BreadcrumbItem } from "flowbite-react";
+import type { BreadcrumbProps } from "@herob191/flowbite-react";
+import { Breadcrumb, BreadcrumbItem } from "@herob191/flowbite-react";
 import { HiHome } from "react-icons/hi";
 
 export default {

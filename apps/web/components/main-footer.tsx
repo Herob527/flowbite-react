@@ -1,4 +1,4 @@
-import { Footer, FooterCopyright, FooterDivider, FooterLink, FooterLinkGroup, FooterTitle } from "flowbite-react";
+import { Footer, FooterCopyright, FooterDivider, FooterLink, FooterLinkGroup, FooterTitle } from "@herob191/flowbite-react";
 import Image from "next/image";
 import Link from "next/link";
 

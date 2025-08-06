@@ -1,13 +1,13 @@
 "use client";
 
-import { Card } from "flowbite-react";
+import { Card } from "@herob191/flowbite-react";
 import Image from "next/image";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
 "use client";
 
-import { Card } from "flowbite-react";
+import { Card } from "@herob191/flowbite-react";
 import Image from "next/image";
 
 export function Component() {

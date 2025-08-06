@@ -1,6 +1,6 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import { Avatar, List, ListItem } from "flowbite-react";
-import type { ListProps } from "flowbite-react";
+import { Avatar, List, ListItem } from "@herob191/flowbite-react";
+import type { ListProps } from "@herob191/flowbite-react";
 import { HiCheckCircle } from "react-icons/hi";
 
 export default {

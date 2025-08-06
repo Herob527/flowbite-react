@@ -1,8 +1,8 @@
-import { Avatar, Blockquote, Rating, RatingStar } from "flowbite-react";
+import { Avatar, Blockquote, Rating, RatingStar } from "@herob191/flowbite-react";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
-import { Avatar, Blockquote, Rating, RatingStar } from "flowbite-react";
+import { Avatar, Blockquote, Rating, RatingStar } from "@herob191/flowbite-react";
 
 export function Component() {
   return (

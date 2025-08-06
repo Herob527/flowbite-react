@@ -1,6 +1,6 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import type { ToggleSwitchProps } from "flowbite-react";
-import { ToggleSwitch, toggleSwitchTheme } from "flowbite-react";
+import type { ToggleSwitchProps } from "@herob191/flowbite-react";
+import { ToggleSwitch, toggleSwitchTheme } from "@herob191/flowbite-react";
 import { useState } from "react";
 
 const colors = Object.keys(toggleSwitchTheme.toggle.checked.color);

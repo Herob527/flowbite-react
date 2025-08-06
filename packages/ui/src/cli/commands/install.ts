@@ -8,7 +8,7 @@ import { getPackageJson } from "../utils/get-package-json";
  * Installs `flowbite-react` package using the detected package manager.
  */
 export async function installPackage() {
-  const packageName = "flowbite-react";
+  const packageName = "@herob191/flowbite-react";
 
   try {
     let pm = await detect();

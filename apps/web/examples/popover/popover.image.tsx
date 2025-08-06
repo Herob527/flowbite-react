@@ -1,8 +1,8 @@
-import { Popover } from "flowbite-react";
+import { Popover } from "@herob191/flowbite-react";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
-import { Popover } from "flowbite-react";
+import { Popover } from "@herob191/flowbite-react";
 
 export function Component() {
   return (

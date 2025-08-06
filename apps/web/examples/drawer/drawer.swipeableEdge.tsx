@@ -1,6 +1,6 @@
 "use client";
 
-import { Button, Drawer, DrawerHeader, DrawerItems } from "flowbite-react";
+import { Button, Drawer, DrawerHeader, DrawerItems } from "@herob191/flowbite-react";
 import { useState } from "react";
 import { HiBars2, HiSquaresPlus } from "react-icons/hi2";
 import type { CodeData } from "~/components/code-demo";
@@ -8,7 +8,7 @@ import type { CodeData } from "~/components/code-demo";
 const code = `
 "use client";
 
-import { Button, Drawer, DrawerHeader, DrawerItems } from "flowbite-react";
+import { Button, Drawer, DrawerHeader, DrawerItems } from "@herob191/flowbite-react";
 import { useState } from "react";
 import { HiBars2, HiSquaresPlus } from "react-icons/hi2";
 

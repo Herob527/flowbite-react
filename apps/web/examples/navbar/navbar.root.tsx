@@ -1,9 +1,9 @@
-import { Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle } from "flowbite-react";
+import { Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle } from "@herob191/flowbite-react";
 import Link from "next/link";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
-import { Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle } from "flowbite-react";
+import { Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle } from "@herob191/flowbite-react";
 import Link from "next/link";
 
 export function Component() {

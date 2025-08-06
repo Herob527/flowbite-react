@@ -1,5 +1,5 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import { DarkThemeToggle, ThemeProvider } from "flowbite-react";
+import { DarkThemeToggle, ThemeProvider } from "@herob191/flowbite-react";
 
 export default {
   title: "Components/DarkThemeToggle",

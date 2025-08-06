@@ -1,9 +1,9 @@
-import { Button } from "flowbite-react";
+import { Button } from "@herob191/flowbite-react";
 import { HiOutlineArrowRight, HiShoppingCart } from "react-icons/hi";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
-import { Button } from "flowbite-react";
+import { Button } from "@herob191/flowbite-react";
 import { HiOutlineArrowRight, HiShoppingCart } from "react-icons/hi";
 
 export function Component() {

@@ -1,13 +1,13 @@
 "use client";
 
-import { ToggleSwitch } from "flowbite-react";
+import { ToggleSwitch } from "@herob191/flowbite-react";
 import { useState } from "react";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
 "use client";
 
-import { ToggleSwitch } from "flowbite-react";
+import { ToggleSwitch } from "@herob191/flowbite-react";
 import { useState } from "react";
 
 export function Component() {

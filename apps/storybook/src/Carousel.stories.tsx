@@ -1,6 +1,6 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import type { CarouselProps } from "flowbite-react";
-import { Carousel } from "flowbite-react";
+import type { CarouselProps } from "@herob191/flowbite-react";
+import { Carousel } from "@herob191/flowbite-react";
 
 export default {
   title: "Components/Carousel",

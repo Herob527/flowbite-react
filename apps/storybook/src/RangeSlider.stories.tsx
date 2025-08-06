@@ -1,6 +1,6 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import type { RangeSliderProps } from "flowbite-react";
-import { RangeSlider, rangeSliderTheme } from "flowbite-react";
+import type { RangeSliderProps } from "@herob191/flowbite-react";
+import { RangeSlider, rangeSliderTheme } from "@herob191/flowbite-react";
 
 export default {
   title: "Components/RangeSlider",

@@ -9,7 +9,7 @@ import {
   TimelinePoint,
   TimelineTime,
   TimelineTitle,
-} from "flowbite-react";
+} from "@herob191/flowbite-react";
 import { HiArrowNarrowRight, HiCalendar } from "react-icons/hi";
 import type { CodeData } from "~/components/code-demo";
 
@@ -25,7 +25,7 @@ import {
   TimelinePoint,
   TimelineTime,
   TimelineTitle,
-} from "flowbite-react";
+} from "@herob191/flowbite-react";
 import { HiArrowNarrowRight, HiCalendar } from "react-icons/hi";
 
 export function Component() {

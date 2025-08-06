@@ -1,13 +1,13 @@
 "use client";
 
-import { Badge, Sidebar, SidebarCTA, SidebarItem, SidebarItemGroup, SidebarItems } from "flowbite-react";
+import { Badge, Sidebar, SidebarCTA, SidebarItem, SidebarItemGroup, SidebarItems } from "@herob191/flowbite-react";
 import { HiArrowSmRight, HiChartPie, HiInbox, HiShoppingBag, HiTable, HiUser, HiViewBoards } from "react-icons/hi";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
 "use client";
 
-import { Badge, Sidebar, SidebarCTA, SidebarItem, SidebarItemGroup, SidebarItems } from "flowbite-react";
+import { Badge, Sidebar, SidebarCTA, SidebarItem, SidebarItemGroup, SidebarItems } from "@herob191/flowbite-react";
 import { HiArrowSmRight, HiChartPie, HiInbox, HiShoppingBag, HiTable, HiUser, HiViewBoards } from "react-icons/hi";
 
 export function Component() {

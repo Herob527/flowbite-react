@@ -1,13 +1,13 @@
 "use client";
 
-import { ListGroup, ListGroupItem } from "flowbite-react";
+import { ListGroup, ListGroupItem } from "@herob191/flowbite-react";
 import { HiCloudDownload, HiInbox, HiOutlineAdjustments, HiUserCircle } from "react-icons/hi";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
 "use client";
 
-import { ListGroup, ListGroupItem } from "flowbite-react";
+import { ListGroup, ListGroupItem } from "@herob191/flowbite-react";
 import { HiCloudDownload, HiInbox, HiOutlineAdjustments, HiUserCircle } from "react-icons/hi";
 
 export function Component() {

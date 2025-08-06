@@ -1,4 +1,4 @@
-import { Navbar } from "flowbite-react";
+import { Navbar } from "@herob191/flowbite-react";
 import Image from "next/image";
 import Link from "next/link";
 import { DocSearchInput } from "../docsearch-input";

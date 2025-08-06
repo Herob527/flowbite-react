@@ -1,13 +1,13 @@
 "use client";
 
-import { Kbd } from "flowbite-react";
+import { Kbd } from "@herob191/flowbite-react";
 import { MdKeyboardArrowDown, MdKeyboardArrowLeft, MdKeyboardArrowRight, MdKeyboardArrowUp } from "react-icons/md";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
 "use client";
 
-import { Kbd } from "flowbite-react";
+import { Kbd } from "@herob191/flowbite-react";
 import { MdKeyboardArrowDown, MdKeyboardArrowLeft, MdKeyboardArrowRight, MdKeyboardArrowUp } from "react-icons/md";
 
 export function Component() {

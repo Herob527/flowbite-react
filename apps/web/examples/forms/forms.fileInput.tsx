@@ -1,8 +1,8 @@
-import { FileInput, HelperText, Label } from "flowbite-react";
+import { FileInput, HelperText, Label } from "@herob191/flowbite-react";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
-import { FileInput, HelperText, Label } from "flowbite-react";
+import { FileInput, HelperText, Label } from "@herob191/flowbite-react";
 
 export function Component() {
   return (

@@ -10,7 +10,7 @@ import {
   SidebarItemGroup,
   SidebarItems,
   TextInput,
-} from "flowbite-react";
+} from "@herob191/flowbite-react";
 import { useState } from "react";
 import {
   HiChartPie,
@@ -38,7 +38,7 @@ import {
   SidebarItemGroup,
   SidebarItems,
   TextInput,
-} from "flowbite-react";
+} from "@herob191/flowbite-react";
 import { useState } from "react";
 import {
   HiChartPie,

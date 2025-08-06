@@ -1,6 +1,6 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import type { FileInputProps } from "flowbite-react";
-import { FileInput } from "flowbite-react";
+import type { FileInputProps } from "@herob191/flowbite-react";
+import { FileInput } from "@herob191/flowbite-react";
 
 export default {
   title: "Components/FileInput",

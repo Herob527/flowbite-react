@@ -1,6 +1,6 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import type { AlertProps } from "flowbite-react";
-import { Alert, alertTheme } from "flowbite-react";
+import type { AlertProps } from "@herob191/flowbite-react";
+import { Alert, alertTheme } from "@herob191/flowbite-react";
 import { HiEye, HiInformationCircle } from "react-icons/hi";
 
 export default {

@@ -1,6 +1,6 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import type { RatingProps } from "flowbite-react";
-import { Rating, RatingAdvanced, RatingStar } from "flowbite-react";
+import type { RatingProps } from "@herob191/flowbite-react";
+import { Rating, RatingAdvanced, RatingStar } from "@herob191/flowbite-react";
 
 export default {
   title: "Components/Rating",

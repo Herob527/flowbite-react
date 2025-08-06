@@ -1,13 +1,13 @@
 "use client";
 
-import { Dropdown, DropdownDivider, DropdownHeader, DropdownItem } from "flowbite-react";
+import { Dropdown, DropdownDivider, DropdownHeader, DropdownItem } from "@herob191/flowbite-react";
 import { HiCog, HiCurrencyDollar, HiLogout, HiViewGrid } from "react-icons/hi";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
 "use client";
 
-import { Dropdown, DropdownDivider, DropdownHeader, DropdownItem } from "flowbite-react";
+import { Dropdown, DropdownDivider, DropdownHeader, DropdownItem } from "@herob191/flowbite-react";
 import { HiCog, HiCurrencyDollar, HiLogout, HiViewGrid } from "react-icons/hi";
 
 export function Component() {

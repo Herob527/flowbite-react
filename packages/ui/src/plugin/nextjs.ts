@@ -37,7 +37,7 @@ function patchConfig(config: NextConfig): NextConfig {
     ...config,
     experimental: {
       ...experimental,
-      optimizePackageImports: [...optimizePackageImports, "flowbite-react"],
+      optimizePackageImports: [...optimizePackageImports, "@herob191/flowbite-react"],
     },
   };
 }

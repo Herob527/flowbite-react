@@ -1,5 +1,5 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import { Drawer, DrawerHeader, DrawerItems, type DrawerProps } from "flowbite-react";
+import { Drawer, DrawerHeader, DrawerItems, type DrawerProps } from "@herob191/flowbite-react";
 
 export default {
   title: "Components/Drawer",

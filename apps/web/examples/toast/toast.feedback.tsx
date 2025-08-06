@@ -1,9 +1,9 @@
-import { Toast } from "flowbite-react";
+import { Toast } from "@herob191/flowbite-react";
 import { FaTelegramPlane } from "react-icons/fa";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
-import { Toast } from "flowbite-react";
+import { Toast } from "@herob191/flowbite-react";
 import { FaTelegramPlane } from "react-icons/fa";
 
 export function Component() {

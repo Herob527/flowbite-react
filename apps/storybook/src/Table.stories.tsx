@@ -1,6 +1,6 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import type { TableProps } from "flowbite-react";
-import { Table, TableBody, TableCell, TableHead, TableHeadCell, TableRow } from "flowbite-react";
+import type { TableProps } from "@herob191/flowbite-react";
+import { Table, TableBody, TableCell, TableHead, TableHeadCell, TableRow } from "@herob191/flowbite-react";
 
 export default {
   title: "Components/Tables",

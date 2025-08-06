@@ -1,6 +1,6 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import type { TextareaProps } from "flowbite-react";
-import { Textarea } from "flowbite-react";
+import type { TextareaProps } from "@herob191/flowbite-react";
+import { Textarea } from "@herob191/flowbite-react";
 
 export default {
   title: "Components/Textarea",

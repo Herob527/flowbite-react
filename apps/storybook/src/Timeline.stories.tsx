@@ -1,5 +1,5 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import type { TimelineProps } from "flowbite-react";
+import type { TimelineProps } from "@herob191/flowbite-react";
 import {
   Timeline,
   TimelineBody,
@@ -8,7 +8,7 @@ import {
   TimelinePoint,
   TimelineTime,
   TimelineTitle,
-} from "flowbite-react";
+} from "@herob191/flowbite-react";
 
 export default {
   title: "Components/Timeline",

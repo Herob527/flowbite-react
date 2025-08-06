@@ -1,6 +1,6 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import type { ClipboardProps, ClipboardWithIconProps, ClipboardWithIconTextProps } from "flowbite-react";
-import { Clipboard, ClipboardWithIcon, ClipboardWithIconText } from "flowbite-react";
+import type { ClipboardProps, ClipboardWithIconProps, ClipboardWithIconTextProps } from "@herob191/flowbite-react";
+import { Clipboard, ClipboardWithIcon, ClipboardWithIconText } from "@herob191/flowbite-react";
 
 export default {
   title: "Components/Clipboard",

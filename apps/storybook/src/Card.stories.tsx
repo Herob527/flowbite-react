@@ -1,6 +1,6 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import type { CardProps } from "flowbite-react";
-import { Card } from "flowbite-react";
+import type { CardProps } from "@herob191/flowbite-react";
+import { Card } from "@herob191/flowbite-react";
 
 export default {
   title: "Components/Card",

@@ -1,8 +1,8 @@
-import { Footer, FooterCopyright, FooterLink, FooterLinkGroup } from "flowbite-react";
+import { Footer, FooterCopyright, FooterLink, FooterLinkGroup } from "@herob191/flowbite-react";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
-import { Footer, FooterCopyright, FooterLink, FooterLinkGroup } from "flowbite-react";
+import { Footer, FooterCopyright, FooterLink, FooterLinkGroup } from "@herob191/flowbite-react";
 
 export function Component() {
   return (

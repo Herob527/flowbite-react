@@ -1,6 +1,6 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import type { TextInputProps } from "flowbite-react";
-import { TextInput } from "flowbite-react";
+import type { TextInputProps } from "@herob191/flowbite-react";
+import { TextInput } from "@herob191/flowbite-react";
 
 export default {
   title: "Components/TextInput",

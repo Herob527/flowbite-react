@@ -10,7 +10,7 @@ import {
   SidebarItems,
   SidebarLogo,
   type SidebarProps,
-} from "flowbite-react";
+} from "@herob191/flowbite-react";
 import { BiBuoy } from "react-icons/bi";
 import { HiArrowSmRight, HiChartPie, HiInbox, HiShoppingBag, HiTable, HiUser, HiViewBoards } from "react-icons/hi";
 

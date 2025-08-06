@@ -1,6 +1,6 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import type { ButtonProps } from "flowbite-react";
-import { Button, buttonTheme } from "flowbite-react";
+import type { ButtonProps } from "@herob191/flowbite-react";
+import { Button, buttonTheme } from "@herob191/flowbite-react";
 
 export default {
   title: "Components/Button",

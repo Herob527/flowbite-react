@@ -1,13 +1,13 @@
 "use client";
 
-import { Avatar } from "flowbite-react";
+import { Avatar } from "@herob191/flowbite-react";
 import Image from "next/image";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
 "use client";
 
-import { Avatar } from "flowbite-react";
+import { Avatar } from "@herob191/flowbite-react";
 import Image from "next/image";
 
 export function Component() {

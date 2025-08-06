@@ -1,6 +1,6 @@
 "use client";
 
-import { Button, ButtonGroup, TabItem, Tabs, type TabsRef } from "flowbite-react";
+import { Button, ButtonGroup, TabItem, Tabs, type TabsRef } from "@herob191/flowbite-react";
 import { useRef, useState } from "react";
 import { HiAdjustments, HiClipboardList, HiUserCircle } from "react-icons/hi";
 import { MdDashboard } from "react-icons/md";
@@ -9,7 +9,7 @@ import type { CodeData } from "~/components/code-demo";
 const code = `
 "use client";
 
-import { Button, ButtonGroup, TabItem, Tabs, type TabsRef } from "flowbite-react";
+import { Button, ButtonGroup, TabItem, Tabs, type TabsRef } from "@herob191/flowbite-react";
 import { useRef, useState } from "react";
 import { HiAdjustments, HiClipboardList, HiUserCircle } from "react-icons/hi";
 import { MdDashboard } from "react-icons/md";

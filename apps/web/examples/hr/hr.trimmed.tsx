@@ -1,8 +1,8 @@
-import { HRTrimmed } from "flowbite-react";
+import { HRTrimmed } from "@herob191/flowbite-react";
 import type { CodeData } from "~/components/code-demo";
 
 const code = `
-import { HRTrimmed } from "flowbite-react";
+import { HRTrimmed } from "@herob191/flowbite-react";
 
 function Component() {
   return (
