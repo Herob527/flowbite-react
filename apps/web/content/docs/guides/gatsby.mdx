@@ -100,7 +100,7 @@ export const onRenderBody = ({ setPreBodyComponents }) => {
 
 ```js {2,5}
 // gatsby-ssr.js
-import { ThemeModeScript } from "flowbite-react";
+import { ThemeModeScript } from "@herob191/flowbite-react";
 
 export const onRenderBody = ({ setPreBodyComponents }) => {
   setPreBodyComponents([ThemeModeScript]);
@@ -113,7 +113,7 @@ Now that you have successfully installed Flowbite React you can start using the 
 
 ```tsx
 // src/pages/index.tsx (or .jsx)
-import { Button } from "flowbite-react";
+import { Button } from "@herob191/flowbite-react";
 
 export default function IndexPage() {
   return <Button>Click me</Button>;

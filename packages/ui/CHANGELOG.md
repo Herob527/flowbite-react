@@ -155,7 +155,7 @@
   - add new transformer from compound components to singular imports
 
     ```tsx
-    import { Button } from "flowbite-react";
+    import { Button } from "@herob191/flowbite-react";
 
     // from
     <Button.Group>
@@ -165,7 +165,7 @@
     </Button.Group>
 
     // to
-    import { Button, ButtonGroup } from "flowbite-react";
+    import { Button, ButtonGroup } from "@herob191/flowbite-react";
 
     <ButtonGroup>
       <Button>tab 1</Button>
@@ -295,7 +295,7 @@
   - ThemeConfig component support for prefix configuration:
 
     ```tsx
-    import { ThemeConfig } from "flowbite-react";
+    import { ThemeConfig } from "@herob191/flowbite-react";
 
     export default function App() {
       return (

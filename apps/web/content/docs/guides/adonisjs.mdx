@@ -106,7 +106,7 @@ Add the `ThemeModeScript` component to prevent dark mode flickering:
 ```tsx {3,16}
 // inertia/app/ssr.tsx
 import { createInertiaApp } from "@inertiajs/react";
-import { ThemeModeScript } from "flowbite-react";
+import { ThemeModeScript } from "@herob191/flowbite-react";
 import ReactDOMServer from "react-dom/server";
 
 export default function render(page: any) {
@@ -133,7 +133,7 @@ Now that you have successfully installed Flowbite React you can start using the 
 
 ```tsx
 // inertia/pages/home.tsx
-import { Button } from "flowbite-react";
+import { Button } from "@herob191/flowbite-react";
 
 export default function Home() {
   return <Button>Click me</Button>;

@@ -5,7 +5,7 @@
   "keywords": [
     "design-system",
     "flowbite",
-    "flowbite-react",
+    "@herob191/flowbite-react",
     "react",
     "tailwind",
     "tailwindcss",
@@ -239,7 +239,7 @@
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
-    "flowbite-react": "./dist/cli/bin.js"
+    "@herob191/flowbite-react": "./dist/cli/bin.js"
   },
   "files": [
     "dist",

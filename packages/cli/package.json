@@ -6,7 +6,7 @@
     "create-flowbite-react",
     "flowbite-react-templates",
     "flowbite-react-template",
-    "flowbite-react",
+    "@herob191/flowbite-react",
     "flowbite",
     "react",
     "tailwind",

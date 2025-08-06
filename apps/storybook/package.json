@@ -13,7 +13,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "flowbite-react": "workspace:*",
+    "@herob191/flowbite-react": "workspace:*",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-icons": "5.2.1"

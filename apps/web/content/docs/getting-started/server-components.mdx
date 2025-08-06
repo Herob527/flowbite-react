@@ -16,7 +16,7 @@ React Server Components are a powerful feature that allows components to be rend
 By default, all components in React are now server components. They don't need any special directive:
 
 ```jsx
-import { Button } from "flowbite-react";
+import { Button } from "@herob191/flowbite-react";
 
 function ServerComponent() {
   // ✅ Works: Static button without interactions
@@ -31,7 +31,7 @@ To handle user interactions (like clicks or input), you need to mark your compon
 ```jsx
 "use client";
 
-import { Button } from "flowbite-react";
+import { Button } from "@herob191/flowbite-react";
 
 function ClientComponent() {
   // ✅ Works: Button with click handler
@@ -45,7 +45,7 @@ function ClientComponent() {
 
 ```jsx
 // This will cause an error!
-import { Button } from "flowbite-react";
+import { Button } from "@herob191/flowbite-react";
 
 function ServerComponent() {
   return <Button onClick={() => console.log("clicked!")}>This Won't Work</Button>;
@@ -57,7 +57,7 @@ function ServerComponent() {
 ```jsx
 "use client";
 
-import { Button } from "flowbite-react";
+import { Button } from "@herob191/flowbite-react";
 
 function ClientComponent() {
   return <Button onClick={() => console.log("clicked!")}>This Works Fine</Button>;
@@ -107,7 +107,7 @@ Just remember to add `"use client"` only when you need interactivity:
 ```jsx
 "use client";
 
-import { Button, Modal } from "flowbite-react";
+import { Button, Modal } from "@herob191/flowbite-react";
 
 function InteractiveWidget() {
   // ✅ Use client components when you need interactivity

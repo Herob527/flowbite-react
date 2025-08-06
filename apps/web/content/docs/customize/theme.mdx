@@ -10,7 +10,7 @@ Flowbite React provides a flexible theming system that allows you to customize t
 The simplest way to customize a component is by using the `className` prop, which allows you to override or extend the default styles:
 
 ```tsx
-import { Button } from "flowbite-react";
+import { Button } from "@herob191/flowbite-react";
 
 function App() {
   return <Button className="bg-red-500 hover:bg-red-600">Custom Button</Button>;
@@ -22,7 +22,7 @@ function App() {
 For application-wide customization, use the `ThemeProvider` component. The `createTheme` helper provides TypeScript and Tailwind CSS IntelliSense support:
 
 ```tsx
-import { Button, createTheme, ThemeProvider } from "flowbite-react";
+import { Button, createTheme, ThemeProvider } from "@herob191/flowbite-react";
 
 const customTheme = createTheme({
   button: {
@@ -75,7 +75,7 @@ When `root={true}` is specified:
 ## Nested Themes
 
 ```tsx
-import { Button, createTheme, ThemeProvider } from "flowbite-react";
+import { Button, createTheme, ThemeProvider } from "@herob191/flowbite-react";
 
 const mainTheme = createTheme({
   button: {
@@ -113,7 +113,7 @@ function App() {
 ### Preventing Theme Inheritance
 
 ```tsx
-import { Button, createTheme, ThemeProvider } from "flowbite-react";
+import { Button, createTheme, ThemeProvider } from "@herob191/flowbite-react";
 
 const mainTheme = createTheme({
   button: {
@@ -171,7 +171,7 @@ The use of `tailwind-merge` ensures:
 For example:
 
 ```tsx
-import { Button, createTheme, ThemeProvider } from "flowbite-react";
+import { Button, createTheme, ThemeProvider } from "@herob191/flowbite-react";
 
 const baseTheme = createTheme({
   button: {
@@ -218,7 +218,7 @@ The combination of `theme`, `clearTheme`, and `applyTheme` props provides granul
 ### Component Level Control
 
 ```tsx
-import { Card, createTheme } from "flowbite-react";
+import { Card, createTheme } from "@herob191/flowbite-react";
 
 const cardTheme = createTheme({
   card: {
@@ -273,7 +273,7 @@ function App() {
 ### Nested Component Control
 
 ```tsx
-import { createTheme, Navbar, NavbarCollapse, NavbarLink, ThemeProvider } from "flowbite-react";
+import { createTheme, Navbar, NavbarCollapse, NavbarLink, ThemeProvider } from "@herob191/flowbite-react";
 
 const navTheme = createTheme({
   navbar: {
@@ -329,7 +329,7 @@ function App() {
 ### Form Components Control
 
 ```tsx
-import { createTheme, Label, TextInput } from "flowbite-react";
+import { createTheme, Label, TextInput } from "@herob191/flowbite-react";
 
 const formTheme = createTheme({
   label: {
@@ -424,7 +424,7 @@ The `clearTheme` prop allows you to selectively or completely remove theme value
 ### Basic Usage
 
 ```tsx
-import { Button, createTheme, ThemeProvider } from "flowbite-react";
+import { Button, createTheme, ThemeProvider } from "@herob191/flowbite-react";
 
 const theme = createTheme({
   button: {
@@ -453,7 +453,7 @@ function App() {
 You can clear specific nested properties while keeping others:
 
 ```tsx
-import { Card, createTheme, ThemeProvider } from "flowbite-react";
+import { Card, createTheme, ThemeProvider } from "@herob191/flowbite-react";
 
 const theme = createTheme({
   card: {
@@ -486,7 +486,7 @@ The `applyTheme` prop provides fine-grained control over how theme values are me
 ### Merging vs Replacing
 
 ```tsx
-import { Button, createTheme, ThemeProvider } from "flowbite-react";
+import { Button, createTheme, ThemeProvider } from "@herob191/flowbite-react";
 
 const baseTheme = createTheme({
   button: {
@@ -531,7 +531,7 @@ function App() {
 The `applyTheme` prop is particularly useful when working with nested components:
 
 ```tsx
-import { createTheme, Navbar, NavbarCollapse, NavbarLink, ThemeProvider } from "flowbite-react";
+import { createTheme, Navbar, NavbarCollapse, NavbarLink, ThemeProvider } from "@herob191/flowbite-react";
 
 const theme = createTheme({
   navbar: {
@@ -579,7 +579,7 @@ This system provides complete control over theme inheritance and application whi
 The `ThemeProvider` component accepts a `props` prop that allows you to set default props for all components within its scope. These props are merged with any component-specific props, with component props taking precedence:
 
 ```tsx
-import { Button, ThemeProvider } from "flowbite-react";
+import { Button, ThemeProvider } from "@herob191/flowbite-react";
 
 function App() {
   return (
@@ -640,7 +640,7 @@ Like themes, provider props are deep merged between parent and child providers u
 You can also apply a custom theme to a specific component instance using the `theme` prop:
 
 ```tsx
-import { Button, createTheme } from "flowbite-react";
+import { Button, createTheme } from "@herob191/flowbite-react";
 
 const buttonTheme = createTheme({
   button: {
@@ -664,7 +664,7 @@ function App() {
 The `createTheme` helper ensures type safety and enables Tailwind CSS IntelliSense in your IDE:
 
 ```tsx
-import { createTheme } from "flowbite-react";
+import { createTheme } from "@herob191/flowbite-react";
 
 // Full theme customization
 const theme = createTheme({
